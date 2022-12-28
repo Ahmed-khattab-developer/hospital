@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.rx.hospital.model;
+
+/**
+ *
+ * @author mahmoud
+ */
+public class Staff extends Person{
+    private Double salary;
+    
+    public void login(){
+        
+    }
+    
+    public void register(){
+        
+    }
+       
+    public void checkin(){
+        
+    }
+          
+    public void checkout(){
+        
+    }
+
+    
+}

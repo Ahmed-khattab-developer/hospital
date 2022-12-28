@@ -10,13 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hospital">
         <activity
-            android:name=".AddPatientActivity"
+            android:name=".activity.DoctorGradeActivity"
             android:exported="false" />
         <activity
-            android:name=".AddActivity"
+            android:name=".activity.PatientsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.DoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
